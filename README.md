@@ -13,6 +13,11 @@ A Databricks/Spark workflow to ingest, clean, and analyze the **Traffic volumes 
 
 ---
 
+## Analysis Explained
+https://github.com/AbdulRafay365/TTC-Traffic-Volume-and-Congestion-Management-with-Analytics-in-Databricks/releases/download/Video/TTC.Video.Presentation.mp4
+
+---
+
 ## TL;DR
 
 - **Ingest** CSV from Toronto Open Data (CKAN export).  
