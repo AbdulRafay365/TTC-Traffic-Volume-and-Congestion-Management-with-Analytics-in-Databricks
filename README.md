@@ -1,5 +1,11 @@
 # API Project — City of Toronto Traffic Volumes (Databricks)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e587d6e8-258a-40a8-b3c2-b4781afc3327" 
+       alt="Logo of the Toronto Transit Commission" 
+       width="600"/>
+</p>
+
 A Databricks/Spark workflow to ingest, clean, and analyze the **Traffic volumes at intersections for all modes** dataset from Toronto Open Data. It computes hourly traffic by mode, compares locations, and flags potential congestion points.
 
 > Source dataset: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/  
@@ -58,7 +64,7 @@ Example: `eb_cars_l` = **eastbound** **cars** turning **left**.
 flowchart LR
     D[Direction] -->|eb| P[Pattern: eb_cars_l]
     V[Vehicle] -->|cars| P
-    M[Movement] -->|l (left)| P
+    M[Movement] -->|l_left| P
 ```
 
 ---
